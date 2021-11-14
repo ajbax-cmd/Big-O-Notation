@@ -53,8 +53,8 @@ With a rudimentary understanding of asymptotic growth at hand, a formal mathemat
 
 ## Types of Time Complexity
 <p float="left">
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Big-O%20Complexity.png" width="580" />
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-ranking.png" width="315" /> 
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Big-O%20Complexity.png" width="500" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-ranking.png" width="265" /> 
 </p>
 
 
