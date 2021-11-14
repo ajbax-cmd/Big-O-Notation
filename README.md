@@ -204,7 +204,7 @@ Based on the rules outlined above, everything but the n^2 gets dropped and the s
 
 
 ## Why Bother with Big O
-Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away. Unless….
+Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away unless….
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-TC.jpg" width="500" />
