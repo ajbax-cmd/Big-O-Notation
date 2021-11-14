@@ -8,55 +8,67 @@ using namespace std;
 
 void swap (int &a, int &b);
 
+
 int main()
 {
-	const int N = 10;
-	srand (time(0));
-	int random;
-	int array[N];
-		
-	for(int i = 0; i < N; i++)
+	char input;
+	do
 	{
-		int random = rand() % 100;
-		array[i] = random;
-	}
+		int N;
+		cout << "\nEnter an integer value for N: ";
+		cin >> N;
+		cout << endl;
+
+		srand (time(0));
+		int random;
+		int array[N];
 		
-	for(int i = 0; i < N; i++)
-	{
-		cout << array[i] << " ";
-	}
-	cout << endl << endl;
-		
-		
-	int innerCount = 0;	
-	int outerCount = 0;
-	int total = 0;
-	int ifStatement = 0;
-	int worstCaseIf = 0;
-	int worstCaseTotal = 0;
-	for(int i = N -1; i > 0; i--)
-	{
-		for(int j = 0; j < i; j++)
+		for(int i = 0; i < N; i++)
 		{
-			if(array[j] > array[j+1])
-			{
-				swap(array[j], array[j+1]);
-				ifStatement += 4;
-			}
-			innerCount++;
-			worstCaseIf += 4;
+			int random = rand() % 100;
+			array[i] = random;
 		}
-		outerCount++;
-	}
-	total = innerCount + outerCount + ifStatement;
-	worstCaseTotal = innerCount + outerCount + worstCaseIf;
+		
+		for(int i = 0; i < N; i++)
+		{
+			cout << array[i] << " ";
+		}
+		cout << endl << endl;
+		
+		
+		int innerCount = 0;	
+		int outerCount = 0;
+		int total = 0;
+		int ifStatement = 0;
+		int worstCaseIf = 0;
+		int worstCaseTotal = 0;
+		for(int i = N -1; i > 0; i--)
+		{
+			for(int j = 0; j < i; j++)
+			{
+				if(array[j] > array[j+1])
+				{
+					swap(array[j], array[j+1]);
+					ifStatement += 4;
+				}
+				innerCount++;
+				worstCaseIf += 4;
+			}
+			outerCount++;
+		}
+		total = innerCount + outerCount + ifStatement;
+		worstCaseTotal = innerCount + outerCount + worstCaseIf;
 	
-	for(int i = 0; i < N; i++)
-	{
-		cout << array[i] << " ";
-	}
-	
-	cout << "\n\ninner: " << innerCount << "\nouter: " << outerCount << "\nworst case total: " << worstCaseTotal  <<   "\nactual total: " << total;
+		for(int i = 0; i < N; i++)
+		{
+			cout << array[i] << " ";
+		}
+		
+		cout << "\n\nWhen N is " << N << ":";
+		cout << "\ninner: " << innerCount << "\nouter: " << outerCount << "\nworst case total: " << worstCaseTotal  <<   "\nactual total: " << total;
+		cout << "\n\nRun again with a different value for N? ";
+		cin >> input;
+}while(input == 'Y' || input == 'y');
 }
 void swap (int &a, int &b)
 {
