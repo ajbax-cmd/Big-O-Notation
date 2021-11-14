@@ -45,7 +45,11 @@ With a rudimentary understanding of asymptotic growth at hand, a formal mathemat
 ![formalDefinition](Images/formalDefinition.png)
 
 ## Types of Time Complexity
-![Complexity Graph](https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Big-O%20Complexity.png)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Big-O%20Complexity.png" width="600" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-ranking.png" width="322" /> 
+</p>
+
 
 **Constant Time Complexity O(1)**<br />
 Constant time complexity for an algorithm means that increasing the input size has no effect on the efficiency of the algorithm. Consider a function that prints the first item in a list. Increasing the size of the elements in list does not increase the runtime of the algorithm. The function below has a Big O of O(1) time (or "constant time") relative to its input. The array could be 1 item or 1,000 items, but this function would still only perform one operation.
