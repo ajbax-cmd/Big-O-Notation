@@ -54,7 +54,7 @@ With a rudimentary understanding of asymptotic growth at hand, a formal mathemat
 ## Types of Time Complexity
 <p float="left">
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Big-O%20Complexity.png" width="500" />
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-ranking.png" width="265" /> 
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-ranking.png" width="266" /> 
 </p>
 
 
@@ -122,7 +122,7 @@ Exponential and Factorial time complexities have the fastest accelerating growth
 <p float="left">
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-goodBad.png" width="290" />
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/BigO-exampleAlgo.png" width="250" /> 
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="182" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="183" />
 </p>
 
 ## Analyzing Algorithms to Determine Big O
