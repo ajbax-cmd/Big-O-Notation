@@ -1,6 +1,9 @@
 # Big-O-Notation
 
-![Meme-BigOspeak](Images/Meme-BigOspeak.jpg)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-BigOspeak.jpg" width="450" />
+</p>
+
 
 ## Table of contents
 * [What is Big O Notation](#What-is-Big-O-Notation )
@@ -43,7 +46,9 @@ With a rudimentary understanding of asymptotic growth at hand, a formal mathemat
 >Let T(n) and f(n) be two positive functions. We write T(n) ∊ O(f(n)) and say that T(n) has order of f(n), if there are positive constants M and n₀ such that T(n) ≤ M·f(n) for  all n ≥ n₀. Where T(n) ∊ O(f(n)) means that T(n) doesn't grow faster than f(n). The graph below shows that all the conditions in the definition are met (“Big O notation: definition and examples” ).
 <br />
 
-![formalDefinition](Images/formalDefinition.png) 
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/formalDefinition.png" width="500" />
+</p>
 <br />
 
 ## Types of Time Complexity
