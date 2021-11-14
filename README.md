@@ -147,6 +147,19 @@ How could a function be developed to represent the number of operations performe
   
 Let’s take a more analytical look at the inner loop. In the first iteration of the outer loop, the inner loop will iterate (n-1) times, in the second, (n-1)-1 , in the third,    (n-1)-2 …. this is essentially an arithmetic sequence since each subsequent term differs by a common difference of 1. The sequence looks like this:
 
+![equation5](Images/equation5.JPG)
+
+To find the number of iterations the inner loop goes through, this sequence needs to be summed:
+
+![equation6](Images/equation6.JPG)
+
+The following formula is used to sum the first n terms of an arithmetic sequence:
+
+![equation7](Images/equation7.JPG)
+
+If n-1is used for n and the first term and  (n-1)-(n-2) is used for the last term, then:
+
+![equation8](Images/equation8.JPG)
 
 ## Why Bother with Big O
 Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away. Unless….
