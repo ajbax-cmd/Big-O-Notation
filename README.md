@@ -120,9 +120,9 @@ void display2DArray(int arr[][n])
 **Exponential Time O and Factorial Time O (n!) Complexity**<br />
 Exponential and Factorial time complexities have the fastest accelerating growth rates of any type of time complexity with factorial being the faster of the two. Generally, these types of time complexities should be avoided if performance is valued however, some instances do utilize these time complexities. An example of an algorithm that uses exponential time complexity would be one that attempts to brute force a password by testing every possible numerical combination for a password of n length.
 <p float="left">
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-goodBad.png" width="359" />
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/BigO-exampleAlgo.png" width="309" /> 
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="226" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-goodBad.png" width="339" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/BigO-exampleAlgo.png" width="289" /> 
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="206" />
 </p>
 
 ## Analyzing Algorithms to Determine Big O
