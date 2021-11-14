@@ -196,11 +196,19 @@ With these rules in mind, evaluating the bubble sort function is much easier. Ev
 
 Based on the rules outlined above, everything but the n^2 gets dropped and the same result, O(n^2), is obtained with much less work. These rules help to cut out the unnecessary information as far Big O is concerned and quickly provide a Big O value with which to make comparisons between algorithms regarding efficiency as well as assist with the avoidance of implementing poorly thought-out algorithms.
 
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-bubbleSort.jpg" width="500" />
+</p>
+
 
 
 
 ## Why Bother with Big O
 Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away. Unless….
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-TC.jpg" width="500" />
+</p>
 
 ## Sources
 Nickels, Megan, et al. “Computer Programming: Algorithm for Mathematics Exploration!” Elementary STEM Journal, vol. 23, no. 2, Dec. 2018, pp. 14–17. EBSCOhost, search-ebscohost-com.ezproxy.hacc.edu/login.aspx?direct=true&db=f5h&AN=143868392&site=ehost-live&scope=site.
