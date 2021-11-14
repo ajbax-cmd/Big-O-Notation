@@ -37,12 +37,14 @@ Thus, when c is greater than 7, the inequality n^2+3n+3 <n^2* c    (n≥1) is tr
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Graph%20BigO%20bounding.JPG" width="350" />
 </p>
 Because 8 is a constant, it has no effect on the asymptotic growth of 8n^2. The 8 is not causing the change in slope to accelerate as n increases, the n^2 is. Therefore, the asymptotic rate of growth for 8n^2 is just n^2 and because f(n) is contained by 8n^2, it too has asymptotic rate of growth of n^2. In terms of Big O, it can be said that f(n) is in Big O of g(n). The Big O notation for f(n) would therefore be O(n^2).
-With a rudimentary understanding of asymptotic growth at hand, a formal mathematical definition for Big O notation becomes more tangible to understand:
+With a rudimentary understanding of asymptotic growth at hand, a formal mathematical definition for Big O notation becomes more tangible to understand: 
+<br />
 
->Let T(n) and f(n) be two positive functions. We write T(n) ∊ O(f(n)) and say that T(n) has order of f(n), if there are positive constants M and n₀ such that T(n) ≤ M·f(n) for  all n ≥ n₀. Where T(n) ∊ O(f(n)) means that T(n) doesn't grow faster than f(n). The graph below shows that all the conditions in the definition are met (“Big O notation: definition and examples” ). 
+>Let T(n) and f(n) be two positive functions. We write T(n) ∊ O(f(n)) and say that T(n) has order of f(n), if there are positive constants M and n₀ such that T(n) ≤ M·f(n) for  all n ≥ n₀. Where T(n) ∊ O(f(n)) means that T(n) doesn't grow faster than f(n). The graph below shows that all the conditions in the definition are met (“Big O notation: definition and examples” ).
+<br />
 
-
-![formalDefinition](Images/formalDefinition.png)
+![formalDefinition](Images/formalDefinition.png) 
+<br />
 
 ## Types of Time Complexity
 <p float="left">
