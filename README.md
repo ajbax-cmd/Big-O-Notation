@@ -201,7 +201,7 @@ With these rules in mind, evaluating the bubble sort function is much easier. Ev
 
 ![equation11](Images/equation11.JPG)
 
-Based on the rules outlined above, everything but the n^2 gets dropped and the same result, O(n^2), is obtained with much less work. These rules help to cut out the unnecessary information as far Big O is concerned and quickly provide a Big O value with which to make comparisons between algorithms regarding efficiency as well as assist with the avoidance of implementing poorly thought-out algorithms.
+Based on the rules outlined above, everything but the n^2 gets dropped and the same result, O(n^2), is obtained with much less work. These rules help to cut out the unnecessary information as far Big O is concerned and quickly provide a Big O value with which to make comparisons between algorithms regarding efficiency as well as to help prevent the implementation of poorly thought-out algorithms.
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-bubbleSort.jpg" width="500" />
