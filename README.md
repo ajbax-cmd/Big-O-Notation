@@ -228,7 +228,7 @@ Sumser, Audrey. “Collaboration in Computer Science: Working Together/Using Pse
 
 Dedov, Florian. The Bible of Algorithms and Data Structures: A Complex Subject Simply Explained (Runtime Complexity, Big O Notation, Programming). NeuralNine, 2020
 
-Graham, Ronald, et al. Concrete Mathematics: A Foundation for Computer Science. Addison-Wesley, 1998
+Graham, Ronald, et al. Concrete Mathematics: A Foundation for Computer Science. Addison-Wesley, 1998.
 
 Briggs, William, et al. Single Variable Calculus. Pearson Education, Inc., 2015.
 
