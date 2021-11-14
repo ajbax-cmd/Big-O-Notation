@@ -88,7 +88,7 @@ void displayArrays(int arrA[], int arrB[], int n)
 {
     for(int i = 0; i < n; i++)
     {
-        fpr(int j = 1; j < n; j*=10)
+        for(int j = 1; j < n; j*=10)
         {
               cout << arrA[i];
               cout << arrB[j];
@@ -103,7 +103,7 @@ void display2DArray(int arr[][n])
 {
     for(int i = 0; i < n; i++)
     {
-        fpr(int j = 0; j < n; j++)
+        for(int j = 0; j < n; j++)
         {
               cout << arr[i][j];
         }
@@ -112,14 +112,44 @@ void display2DArray(int arr[][n])
 ```
 **Exponential Time O and Factorial Time O (n!) Complexity**<br />
 Exponential and Factorial time complexities have the fastest accelerating growth rates of any type of time complexity with factorial being the faster of the two. Generally, these types of time complexities should be avoided if performance is valued however, some instances do utilize these time complexities. An example of an algorithm that uses exponential time complexity would be one that attempts to brute force a password by testing every possible numerical combination for a password of n length.
-
-
-
-
+<p float="left">
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-goodBad.png" width="379" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/BigO-exampleAlgo.png" width="329" /> 
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="247" />
+</p>
 
 ## Analyzing Algorithms to Determine Big O
+When assessing the Big O of an algorithm, a function representing the number of operations performed per n values of input is helpful in determining the algorithm’s asymptotic limit of growth rate acceleration. Consider the following bubble sort function, it will arrange n number of items in the array in ascending order: 
+```c++
+void bubbleSort(int array[], int n)
+{
+  for(int i = n - 1; i > 0; i--)
+  {
+    for(int j = 0; j < i; j++)
+    {
+      if(array[j] > array[j+1])
+        swap(array[j], array[j+1]);
+    }
+  }
+}
+void swap(int &a, int &b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
+```
+How could a function be developed to represent the number of operations performed per n values of input? Examining the outer for loop is a good place to start, it will iterate n-1 times but what about the inner loop? This is less clear as the number changes with each iteration of the outer loop. Since the worst-case scenario is being considered, it will be assumed the if statement executes with every iteration of the inner loop. So far, that gives:
+
+  Outer Loop = n-1<br />
+	Inner Loop =  ?<br />
+	If statement = 4 * inner loop<br />
+  
+Let’s take a more analytical look at the inner loop. In the first iteration of the outer loop, the inner loop will iterate (n-1) times, in the second, (n-1)-1 , in the third,    (n-1)-2 …. this is essentially an arithmetic sequence since each subsequent term differs by a common difference of 1. The sequence looks like this:
+
 
 ## Why Bother with Big O
+Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away. Unless….
 
 ## Sources
 Nickels, Megan, et al. “Computer Programming: Algorithm for Mathematics Exploration!” Elementary STEM Journal, vol. 23, no. 2, Dec. 2018, pp. 14–17. EBSCOhost, search-ebscohost-com.ezproxy.hacc.edu/login.aspx?direct=true&db=f5h&AN=143868392&site=ehost-live&scope=site.
