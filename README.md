@@ -157,9 +157,47 @@ The following formula is used to sum the first n terms of an arithmetic sequence
 
 ![equation7](Images/equation7.JPG)
 
-If n-1is used for n and the first term and  (n-1)-(n-2) is used for the last term, then:
+If n-1 is used for n and the first term and (n-1)-(n-2) is used for the last term, then:
 
 ![equation8](Images/equation8.JPG)
+
+This answers the question regarding the number of times the inner loop will iterate for n values:  (n^2-n)/2 times.
+
+Outer Loop = n-1<br />
+Inner Loop = (n^2-n)/2<br />
+If statement = 4 * inner loop<br />
+
+Summing this together gives:
+
+![equation9](Images/equation9.JPG)
+
+Which simplifies down to a quadratic function:
+
+![equation10](Images/equation10.JPG)
+
+A function has now been obtained that gives the worst-case scenario number of operations the bubble sort function must perform for n number of items. But what is the Big O of the bubble sort function? Recall from earlier the section regarding asymptotic analysis, it’s possible to multiply n^2by some constant so that after a certain point c*n^2>5/2 n^2-3/2 n-1 will always be true given that n≥1. Thus, 5/2 n^2-3/2 n-1 is bounded above by c*n^2. Once the again, the constant is dropped since it does not influence the asymptotic growth. Finally, it can now be said that the bubble sort function runs in O(n^2) time complexity.
+
+Deriving a function for every algorithm can be a tedious and arduous task, especially for complex algorithms. Therefore, there are some general rules to keep in mind when analyzing algorithms to make the process more practical: 
+
+***Basic Rules-Algorithm Analysis***<br />
+	1. Nested loops are multiplied together<br />
+	2. Two loops set to iterate n times, this would be n^2, for three loops, n^3and so on.<br />
+	3. Sequential loops are added<br />
+	4. For worst-case scenario analysis, assume conditionals always execute<br /><br />
+
+
+***Basic Rules-Notation***<br />
+	1. Only the variable with the largest exponent is kept, all others that are being added or subtracted can be dropped<br />
+	2. Constants are always dropped<br /><br />
+
+With these rules in mind, evaluating the bubble sort function is much easier. Even though the number of iterations for the inner loop change with each iteration of the outer loop, it doesn’t matter since increasing n effects the number of both loops. The outer loop iterates (n-1) times while the inner loop iterates (n-c) times where c is some constant. Since the loops are nested, multiply:
+
+![equation11](Images/equation11.JPG)
+
+Based on the rules outlined above, everything but the n^2 gets dropped and the same result, O(n^2), is obtained with much less work. These rules help to cut out the unnecessary information as far Big O is concerned and quickly provide a Big O value with which to make comparisons between algorithms regarding efficiency as well as assist with the avoidance of implementing poorly thought-out algorithms.
+
+
+
 
 ## Why Bother with Big O
 Aside from the aforementioned use cases, Big O is an important aspect of Computer Science that will be expected to be basic knowledge for jobs in the industry. Computer Science students should be familiar with the concept as it is the gold standard (though not the only consideration) for choosing the best algorithm for solving a problem. Without any awareness of what Big O is and what it implies, a programmer is essentially flying blind. Therefore, it is something that Computer Scientists should develop a deep understanding of as it isn’t something that will just go away. Unless….
