@@ -122,7 +122,7 @@ Exponential and Factorial time complexities have the fastest accelerating growth
 <p float="left">
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/TC-goodBad.png" width="379" />
   <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/BigO-exampleAlgo.png" width="329" /> 
-  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="247" />
+  <img src="https://raw.githubusercontent.com/ajbax-cmd/Big-O-Notation/main/Images/Meme-O(1)sort.jpg" width="246" />
 </p>
 
 ## Analyzing Algorithms to Determine Big O
