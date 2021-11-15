@@ -67,7 +67,7 @@ void displayFirstElement(int arr[])
 }
 ```
 **Logarithmic Time Complexity O (log n)**<br />
-Logarithmic time is only slightly worse (relative to other types of time complexity) than constant time given a large enough value for n. Logarithmic growth is fast initially but begins to flat out as n grows large. The actual base value of the logarithm does not matter for purposes of comparing time complexity as all logarithmic bases can be converted to any other base through multiplication of a constant (refer logarithmic change of base equation). The binary search is an example of logarithmic time complexity. Here, the base is 2. This means that for a list of 16 elements, the worst case scenario search result would be 4 (log(2)16 = 4). A more simple example of O(log n) time is shown below. Notice, the for loop does not increment itself by a constant amount each iteration.
+Logarithmic time is only slightly worse (relative to other types of time complexity) than constant time given a large enough value for n. Logarithmic growth is fast initially but begins to flatten out as n grows large. The actual base value of the logarithm does not matter for purposes of comparing time complexity as all logarithmic bases can be converted to any other base through multiplication of a constant (refer logarithmic change of base equation). The binary search is an example of logarithmic time complexity. Here, the base is 2. This means that for a list of 16 elements, the worst case scenario search result would be 4 (log(2)16 = 4). A more simple example of O(log n) time is shown below. Notice, the for loop does not increment itself by a constant amount each iteration.
 ```c++
 void displayPartialArr(int arr[], int n)
 {
