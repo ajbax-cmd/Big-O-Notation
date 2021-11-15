@@ -104,7 +104,7 @@ void displayArrays(int arrA[], int arrB[], int n)
 }
 ```
 **Quadratic Time Complexity O(n^2)**<br />
-With quadratic time complexity, the rate of growth is increasing faster as n grows larger and there is no leveling off like with linearithmic. An example of an algorithm that has this type to time complexity would be any function that makes use of nested loops, each iterating through n number of items. If an array has n items, the outer loop runs n times and the inner loop runs n times for each iteration of the outer loop, resulting in a total of n*n iterations. Thus, the Big O of this function is  O(n^2).
+With quadratic time complexity, the rate of growth is increasing faster as n grows larger and there is no leveling off like with linearithmic. An example of an algorithm that has this type to time complexity would be any function that makes use of nested loops, each iterating through n number of items. If an array has n items, the outer loop runs n times and the inner loop runs n times for each iteration of the outer loop, resulting in a total of n*n iterations for the inner loop. Thus, the Big O of this function is  O(n^2).
 ```c++
 void display2DArray(int arr[][n])
 {
