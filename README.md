@@ -78,7 +78,7 @@ void displayPartialArr(int arr[], int n)
 }
 ```
 **Linear Time Complexity O(n)**<br />
-With linear time complexity, growth rate is constant. This means that for each increase in n, the exact same number of additional operations must be performed. This makes sense when thinking about the slope of a non-horizontal line on a graph, the rate of change is constant. An example of linear time complexity would be searching for the max value in a list or printing each value in a list. The function below has O(n) time complexity, where n is the number of items in the array. If the array has 10 items, 10 print operations are performed. If it has 1000 items, 1000 print operations are performed.
+With linear time complexity, growth rate is constant. This means that for each increase in n, the exact same number of additional operations must be performed. This makes sense when thinking about the slope of a non-horizontal line on a graph, the rate of change is constant. An example of linear time complexity would be searching for the max value in a list or printing each value in a list. The function below has O(n) time complexity, where n is the number of items in the array. If the array has 10 items, 10 operations are performed. If it has 1000 items, 1000 operations are performed.
 ```c++
 void displayArray(int arr [] int n)
 {
