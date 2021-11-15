@@ -182,7 +182,7 @@ Which simplifies down to a quadratic function:
 
 ![equation10](Images/equation10.JPG)
 
-A function has now been obtained that gives the worst-case scenario number of operations the bubble sort function must perform for n number of items. But what is the Big O of the bubble sort function? Recall from earlier the section regarding asymptotic analysis, it’s possible to multiply n^2 by some constant so that after a certain point c*n^2>5/2 n^2-3/2 n-1 will always be true given that n≥1. Thus, 5/2 n^2-3/2 n-1 is bounded above by c*n^2. Once the again, the constant is dropped since it does not influence the asymptotic growth. Finally, it can now be said that the bubble sort function runs in O(n^2) time complexity.
+A function has now been obtained that gives the worst-case scenario number of operations the bubble sort function must perform for n number of items. But what is the Big O of the bubble sort function? Recall from earlier the section regarding asymptotic analysis, it’s possible to multiply n^2 by some constant so that after a certain point c*n^2>5/2 n^2-3/2 n-1 will always be true. Thus, 5/2 n^2-3/2 n-1 is bounded above by c*n^2. Once again, the constant is dropped since it does not influence the asymptotic growth. Finally, it can now be said that the bubble sort function runs in O(n^2) time complexity.
 
 Deriving a function for every algorithm can be a tedious and arduous task, especially for complex algorithms. Therefore, there are some general rules to keep in mind when analyzing algorithms to make the process more practical: 
 
