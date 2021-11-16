@@ -228,6 +228,10 @@ Sumser, Audrey. “Collaboration in Computer Science: Working Together/Using Pse
 
 Dedov, Florian. The Bible of Algorithms and Data Structures: A Complex Subject Simply Explained (Runtime Complexity, Big O Notation, Programming). NeuralNine, 2020
 
+Gaddis, Tony. Starting Out With >>> C++: From Control Structures through Objects. Pearson Education, Inc., 2018.
+
+Nyhoff, Larry. ADT’s, Data Structures, and Problem Solving with C++. Pearson Education, Inc., 2004.
+
 Graham, Ronald, et al. Concrete Mathematics: A Foundation for Computer Science. Addison-Wesley, 1998.
 
 Briggs, William, et al. Single Variable Calculus. Pearson Education, Inc., 2015.
